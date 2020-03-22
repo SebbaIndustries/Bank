@@ -1,0 +1,9 @@
+/home/sebbaindustries/IdeaProjects/Bank/src/main/java/me/sebbaindustries/bank/globals/GlobalCore.java
+/home/sebbaindustries/IdeaProjects/Bank/src/main/java/me/sebbaindustries/bank/local/BankData.java
+/home/sebbaindustries/IdeaProjects/Bank/src/main/java/me/sebbaindustries/bank/commands/bank/Bank.java
+/home/sebbaindustries/IdeaProjects/Bank/src/main/java/me/sebbaindustries/bank/commands/CommandManager.java
+/home/sebbaindustries/IdeaProjects/Bank/src/main/java/me/sebbaindustries/bank/Core.java
+/home/sebbaindustries/IdeaProjects/Bank/src/main/java/me/sebbaindustries/bank/utils/FileManager.java
+/home/sebbaindustries/IdeaProjects/Bank/src/main/java/me/sebbaindustries/bank/utils/Messages.java
+/home/sebbaindustries/IdeaProjects/Bank/src/main/java/me/sebbaindustries/bank/utils/Color.java
+/home/sebbaindustries/IdeaProjects/Bank/src/main/java/me/sebbaindustries/bank/commands/adminbank/AdminBank.java

@@ -1,0 +1,9 @@
+me/sebbaindustries/bank/local/BankData.class
+me/sebbaindustries/bank/commands/CommandManager.class
+me/sebbaindustries/bank/utils/Color.class
+me/sebbaindustries/bank/commands/adminbank/AdminBank.class
+me/sebbaindustries/bank/utils/Messages.class
+me/sebbaindustries/bank/commands/bank/Bank.class
+me/sebbaindustries/bank/utils/FileManager.class
+me/sebbaindustries/bank/globals/GlobalCore.class
+me/sebbaindustries/bank/Core.class
