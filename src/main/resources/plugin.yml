@@ -1,17 +1,8 @@
-name: 'Bank'
+name: Bank
 version: ${project.version}
-main: me.sebbaindustries.bank.Core
-prefix: 'Bank'
-depend: ['Vault']
-load: POSTWORLD
-api-version: '1.15'
-author: 'SebbaIndustries'
+main: me.sebbaindustries.bank.BankPlugin
+depend: [Vault]
+api-version: 1.15
+authors: [SebbaIndustries, Frcsty]
 description: 'A custom bank plugin featuring an intuitive simple usage'
-
 website: 'sebbaindustries.com/bank'
-
-commands:
-  adminbank:
-    description: ""
-  bank:
-    description: ""
