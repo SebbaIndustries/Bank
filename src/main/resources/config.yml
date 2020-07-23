@@ -1,0 +1,23 @@
+messages:
+  noPermissionMessage: '&8[&2Bank&8] &cNimas dovoljenja za uporabo tega ukaza!'
+  playerOnlyMessage: '&8[&2Bank&8] &cPlayer only bish'
+  invalidCommandMessage: '&8[&2Bank&8] &7Nepoznan ukaz.'
+  wrongUsageMessage: '&8[&2Bank&8] &cNapacna uporaba! {usage}'
+  invalidAmountMessage: '&8[&2Bank&8] &7To število ne more biti uporabljeno.'
+  invalidMoneyAmountMessage: '&8[&2Bank&8] &cTe transakcije si nemores privosciti!'
+  amountCheckMessage: '&8[&2Bank&8] &7V banki imas &2$%amount%'
+  amountAddMessage: '&a&l+$%amount%'
+  amountRemoveMessage: '&c&l-$%amount%'
+  bankHelpMessage:
+    - 'I Want'
+    - 'To Die.'
+  bankTopAmount: 6
+  bankTopHeaderMessage:
+    - '&2Balance Top &8- &2Server Total&8: &f%total%'
+  bankTopListerMessage: '&f%position%. %player%,  $%balance%'
+  bankTopFooterMessage: []
+  bankAdminBalanceMessage: '&8[&2Bank&8] &fUser &7%player% &fhas &7$%balance% &fin their bank.'
+  bankAdminInvalidArgumentMessage: '&8[&2Bank&8] &cInvalid argument: &cUse &7+ &cor &7-'
+  bankAdminInvalidAmountMessage: '&8[&2Bank&8] &cAmount can not be negative or 0'
+  bankAdminModifiedMessage: "&8[&2Bank&8] &7You have modified &f%player%&7's balance, new amount is &f$%balance%"
+  bankAdminInvalidPlayer: '&8[&2Bank&8] &7Please specify a valid player!'
