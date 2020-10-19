@@ -1,0 +1,40 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+
+plugins {
+    id "com.github.johnrengelman.shadow" version "6.0.0"
+    id "java"
+}
+
+group = "me.sebbaindustries"
+version = "1.1"
+
+repositories {
+    mavenLocal()
+    maven { url "https://repo.destroystokyo.com/repository/maven-public/" }
+    maven { url "https://oss.sonatype.org/content/groups/public/" }
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    implementation "me.mattstudios.utils:matt-framework:1.4"
+
+    compileOnly "com.destroystokyo.paper:paper-api:1.16.3-R0.1-SNAPSHOT"
+    compileOnly("com.github.MilkBowl:VaultAPI:1.7") { exclude group: "org.bukkit" }
+}
+
+shadowJar {
+    relocate "me.mattstudios.mf", "${group}.bank.library.mf"
+
+    archiveFileName.set("Bank-${version}.jar")
+}
+
+processResources {
+    from(sourceSets.main.resources.srcDirs) {
+        filter ReplaceTokens, tokens: [version: version]
+    }
+}
+
+def compatibilityVersion = JavaVersion.VERSION_1_8
+
+sourceCompatibility = compatibilityVersion
+targetCompatibility = compatibilityVersion
